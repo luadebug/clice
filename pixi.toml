@@ -44,6 +44,7 @@ clang-tools = "==22.1.8"
 compiler-rt = "==22.1.8"
 # cmake/archive.cmake pipes tar through xz for the symbol archives.
 xz = ">=5.8.1,<6"
+xmake = "==3.1.1"
 
 [feature.build.target.win-64.dependencies]
 sccache = "*"
